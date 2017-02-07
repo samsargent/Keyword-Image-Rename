@@ -1,8 +1,13 @@
 # Keyword-Image-Rename
 Rename image using keyword metadata for upload to Google Photos. Filename keywords seem to be indexed by Google Photos.
 
+## Installation
 `git clone && npm intsall`
 
+## Test Image
+![alt text](https://raw.githubusercontent.com/samsargent/Keyword-Image-Rename/master/test.jpg "Test Image with keywords")
+
+## Test Image Exif Data
 ```
 exiftool test.jpg 
 ExifTool Version Number         : 10.41
@@ -53,4 +58,5 @@ Digital Creation Date/Time      : 2017:02:06 12:53:12
 Image Size                      : 1280x863
 Megapixels                      : 1.1
 ```
-
+## Usage
+`node exif.js` _/enter/path/to/images/_
