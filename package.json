@@ -1,0 +1,31 @@
+{
+  "name": "keyword-file-rename",
+  "version": "1.0.0",
+  "description": "Rename image using keyword metadata for upload to Google Photos. Filename keywords seem to be indexed by Google Photos. ",
+  "main": "exif.js",
+  "dependencies": {
+    "node-exiftool": "^2.1.1",
+    "prompt": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samsargent/Keyword-Image-Rename.git"
+  },
+  "keywords": [
+    "exif",
+    "google",
+    "photos",
+    "bulk",
+    "rename"
+  ],
+  "author": "Sam Sargent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samsargent/Keyword-Image-Rename/issues"
+  },
+  "homepage": "https://github.com/samsargent/Keyword-Image-Rename#readme"
+}
